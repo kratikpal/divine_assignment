@@ -14,7 +14,7 @@ class _HomeScreenState extends State<HomeScreen> {
     return Scaffold(
       appBar: AppBar(
         centerTitle: true,
-        title: const Text('Home'),
+        title: const Text('Accupressure Sathi'),
       ),
       body: Column(
         mainAxisAlignment: MainAxisAlignment.start,
