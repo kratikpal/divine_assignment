@@ -19,7 +19,7 @@ class _HomeScreenState extends State<HomeScreen> {
       body: Column(
         mainAxisAlignment: MainAxisAlignment.start,
         children: [
-          SizedBox(height: MediaQuery.of(context).size.height * 0.2),
+          SizedBox(height: MediaQuery.of(context).size.height * 0.15),
           const Text('Search Problem', style: TextStyle(fontSize: 24)),
           const Padding(
             padding: EdgeInsets.all(12.0),
@@ -32,6 +32,7 @@ class _HomeScreenState extends State<HomeScreen> {
             padding: EdgeInsets.all(12.0),
             child: SearchFieldWidget(
               hintText: 'Search by point name example : hand',
+              isPoint: true,
             ),
           ),
         ],
